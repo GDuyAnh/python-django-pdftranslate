@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color: #789acd;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+.Main{
+    background-color: white;
+    margin: auto 400px;
+    margin-top: 60px;
+}
+
+h4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    border: solid 1px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: 0px 0px;
+}
+.Main input{
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+
+
+
