@@ -6,10 +6,6 @@
     margin-left: 0px;
 }
 
-.head ul li{
-    list-style-type:decimal;
-    font-size: 25px;
-}
 
 .head{
     border: solid 0px;
@@ -17,10 +13,19 @@
     margin-top: 25px;
 }
 
-.Page_File{
-    margin: 0px 260px;
-    margin-top: 130px;
+.head:after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
+.Page_File{
+    margin: 0px 0px;
+    margin-bottom: 100px;
+}
+
+
+
 .btn_Login{
     width: 150px;
     height: 30px;
@@ -51,6 +56,7 @@
 .Page_File a:hover{
     color: rgb(131, 8, 14);
 }
+
 .drag-area{
     display: flex;
     text-align:center; 
@@ -58,23 +64,27 @@
     flex-direction: column;
     background-color: aliceblue;
     border-radius: 20px;
-    border : 3px dashed rgb(188, 215, 238)
+    border : 3px dashed rgb(188, 215, 238);
 }
-.Page_File h3{
-    margin-left: 20px;
+
+.down-area{
+    display: flex;
+    text-align:center; 
+    min-height: 50vh;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border : 3px dashed rgb(188, 215, 238);
 }
 
 .drag-area .icon{
     font-size: 50px;
     color: rgb(214, 30, 46);
-    margin-top: 20px;
-}
-.fa-file-word{
-    color: rgb(40, 40, 214);
+   
 }
 .fa-arrow-right{
     color: black;
-    font-size: 40px;
+    font-size:140px;
 }
 .container{
     max-width:  650px;

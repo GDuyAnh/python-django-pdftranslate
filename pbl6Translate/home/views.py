@@ -32,13 +32,13 @@ def upload_file(request):
 
 def translate(filename):
     Path = os.path.abspath(filename)
-    print(Path)
     index1 = Path.__len__()-1 - Path[::-1].index("\\")
     index2 = Path.__len__()-1 - Path[::-1].index(".")
     URL = Path[:index1]
     pdf_file = URL + Path[index1:index2] +  ".pdf"
     docx_file = URL + Path[index1:index2] + ".docx"
-    result_file = URL + "\\" + "Rsdocx.docx"
+    Path_rs = os.path.abspath(r'media/transFile/')
+    result_file = Path_rs + "\\" + "Rsdocx.docx"
     try:
         # Converting PDF to Docx
         cv_obj = Converter(pdf_file)
