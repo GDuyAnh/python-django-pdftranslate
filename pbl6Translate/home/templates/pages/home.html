@@ -1,0 +1,41 @@
+{% extends "pages/base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<div class="head">
+    <img src="https://speakt.com/wp-content/uploads/2018/11/how-to-translate-pdf-files-to-different-languages.png" alt=""style="width:800px;height:300px;">
+    <p>Công cụ chuyển đổi từ PDF to PDF TRANSLATE miễn phí trực tuyến này cho phép bạn dịch tốt hơn bất kì công cụ nào.</p>
+    <ul>
+        <li><p>Nhấn nút TẢI TỆP LÊN và chọn tối đa 20 tệp PDF bạn muốn chuyển đổi. Đợi<br> đến lúc quy trình chuyển đổi hoàn tất.</p></li>
+        <li><p>Tải kết quả xuống hoặc từng tệp một hoặc nhấn vào nút TẢI TẤT CẢ để đặt tất<br> cả vào tệp lưu trữ ZIP.</p></li>
+    </ul>
+</div>
+
+<div class="Page_File">
+    <ul class="service">
+        <li><h1></h1>Vietnamese To Ennglish</li>
+        <li><h1></h1>Ennglish to Vietnamese</li>
+    </ul>
+    <h3>Upload your file
+    </h3>
+    <div class="drag-area">
+        <div class="icon">
+            <i class="fas fa-file-pdf"></i>
+            <i class="fas fa-arrow-right"></i>
+            <i class="fas fa-file-word"></i>
+        </div>
+        
+        <span class="header">Drag & Drop</span>
+        <span class="header">or <span class="button">Browse</span></span>
+        <input type="file" accept=".pdf" hidden>
+        <span class="header">Support: PDF</span>
+        <div class="Wrapper">
+            <section class="Progress-area"></section>
+            <section class="Upload-area"></section>
+        </div>
+    </div>
+</div>
+{% endblock %}
